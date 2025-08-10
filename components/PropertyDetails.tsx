@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react'
 import { Property } from '../lib/api'
 import { LifestyleAmenity } from '../lib/overpass'
 import dynamic from 'next/dynamic'
-import { HiHome, HiMapPin, HiStar, HiHeart, HiShare, HiPhone, HiMail, HiCalendar, HiClock, HiLocationMarker, HiArrowRight, HiCheck } from 'react-icons/hi'
+import { HiHome, HiStar, HiHeart, HiShare, HiPhone, HiMail, HiCalendar, HiClock, HiLocationMarker, HiArrowRight, HiCheck } from 'react-icons/hi'
+import { HiMapPin } from 'react-icons/hi2'
 
 // Dynamically import the map component to prevent SSR issues
 const LifestyleMap = dynamic(() => import('./LifestyleMap'), {
