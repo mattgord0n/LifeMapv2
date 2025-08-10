@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { Property } from '../../../lib/api'
+import { Property } from '@/lib/api'
 
 export const dynamic = 'force-dynamic'
 

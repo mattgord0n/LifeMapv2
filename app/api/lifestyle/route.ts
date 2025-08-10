@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { lifestyleAPI } from '../../../lib/overpass'
+import { lifestyleAPI } from '@/lib/overpass'
 
 export const dynamic = 'force-dynamic'
 
