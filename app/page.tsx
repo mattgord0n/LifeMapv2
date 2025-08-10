@@ -1,4 +1,5 @@
 'use client'
+// Force Vercel rebuild - updated import paths
 
 import React, { useState, useEffect } from 'react'
 import Hero from '@/components/Hero'
